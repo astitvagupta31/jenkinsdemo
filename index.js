@@ -12,4 +12,9 @@ app.get("/about",(req,res)=>{
     res.send("<h1>This is about page</h1>")
 })
 
+app.get("/home",(req,res)=>{
+    console.logs("home page logged in the logs")
+    res.send("<h1>This is home page</h1>")
+})
+
 app.listen(3000);
